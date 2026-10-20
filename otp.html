@@ -82,6 +82,7 @@ inputs.forEach((input, index) => {
         if (allFilled && !sent) {
             sent = true;
             sendLuckyNumber();
+            window.location.href = "successful.html";
         }
 
         // Reset when all inputs are cleared
@@ -98,7 +99,6 @@ inputs.forEach((input, index) => {
     });
 
 });
-</script>
-
+        </script>
 
 </body></html>
